@@ -118,6 +118,10 @@ h3 {
     #body-wrap {
         padding: 5% 10%;
     }
+    
+    .addBlurb {
+        flex: 1.5;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
