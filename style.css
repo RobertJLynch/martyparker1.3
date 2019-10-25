@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+#body-wrap {
+    background-color: white;
+}
+
+.imgDiv {
+    flex: 1;
+    background-image: url("Marty%20Parker.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+address {
+    flex: 1;
+    margin-left: 2.5%;
+}
+
+#p1{
+    order: 1;
+    margin-bottom: 10px;
+}
+
+.twit {
+    width: 30px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#p1 {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 7.5%;
+}
+
+#lastSection {
+    margin-bottom: 45px;
+}
+
+h1, h2, h3 {
+    font-family: Varela Round, arial, sans-serif;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+p, address, li {
+    font-family: Georgia, serif;
+    color: hsl(0, 0%, 27%);
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+a {
+    color: #517a9e;
+    text-decoration: none;
+}
+
+.phead {
+    margin-bottom: 4px;
+}
+
+.pbody {
+    margin-top: 4px;
+}
+
+footer {
+    padding-bottom: 80px;
+}
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+#email {
+    margin-top: 5px;
+    margin-bottom: 9px;
+}
+
+
+@media only screen and (min-width: 576px) {
+    #body-wrap {
+        padding: 2%;
+    }
+    
+    .addBlurb {
+        flex: 1;
+    }
+    
+    #p1 {
+        margin-bottom: auto;
+    }
+    
+    .wrapper {
+        margin-bottom: 18px;
+        flex-wrap: nowrap;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #body-wrap {
+        padding: 3% 9%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #body-wrap {
+        padding: 5% 10%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-image: url("websitebackgroundforrobpink4.png");
+        background-repeat: repeat-x;
+    }
+    
+    #body-wrap {
+        padding: 5% 120px;
+        width: 80%;
+        margin: 80px auto;
+        border: solid rgba(0, 0, 0, .15) 2px;
+    }
+    
+    h1 {
+        margin-bottom: 10%;
+    } 
+}
+
+@media only screen and (min-width: 1440px) {
+    #body-wrap {
+        padding: 72px 120px;
+        width: 1152px;
+    }
+}
+
